@@ -1293,7 +1293,7 @@ body {
         position: absolute; 
         top: 50%; 
         left: 50%; 
-        transform: translateX(-45%) translateY(450%); 
+        transform: translateX(-45%) translateY(580%); 
         font-size: 2rem; 
         color: black; 
         line-height: 2;
@@ -2864,6 +2864,47 @@ body {
         color: black; 
         line-height: 2.5;
         font-weight: normal;
+        margin-left: 11.5rem;
+    }
+
+    .panel-texto44 {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translateX(-48%) translateY(800%); 
+        font-size: 1rem; 
+        color: black; 
+        text-align: center; 
+        width: 50rem;
+        line-height: 2.5;
+    }
+
+    .cuadrante12 {
+        position: relative; 
+        background-color: #88a795;
+        text-align: center;
+        transform: translateX(180%) translateY(1680%); 
+        height: 65px; 
+        width: 300px;
+        justify-content: center;
+        align-items: center;
+        border-radius: 30px;
+        font-size: 1rem;
+        box-sizing: border-box;
+        display: flex;
+    }
+
+    .cuadrante12 h2{
+        font-weight: normal; 
+    }
+    
+    .cuadrante12 h2 a {
+        color: black; 
+        text-decoration: none; 
+    }
+    
+    .cuadrante12 h2 a:hover {
+        text-decoration: underline; 
     }
 
     .panel-texto28 h2 {
@@ -2875,6 +2916,7 @@ body {
         color: black; 
         line-height: 2.5;
         font-weight: normal;
+        margin-left: 11.5rem;
     }
 
     .panel-texto29 h2 {
@@ -2886,6 +2928,7 @@ body {
         color: black; 
         line-height: 2;
         font-weight: normal;
+        margin-left: 11.5rem;
     }
 
     .panel-texto30 {
@@ -2904,7 +2947,7 @@ body {
         position: absolute; 
         top: 50%; 
         left: 50%; 
-        transform: translateX(-45%) translateY(1345%); 
+        transform: translateX(-45%) translateY(1550%); 
         font-size: 2rem; 
         color: black; 
         line-height: 2;
@@ -2934,7 +2977,7 @@ body {
         position: absolute;
         top: 50%;
         left: 50%;
-        transform: translateX(-45%) translateY(175%);
+        transform: translateX(-45%) translateY(195%);
         font-size: 2rem;
         color: black;
         line-height: 1;
@@ -3395,7 +3438,6 @@ body {
         width: 50rem;
         line-height: 2.5;
     }
-    
 
     .panel-texto43 {
         position: absolute; 
@@ -3466,4 +3508,126 @@ body {
     footer8 nav ul li a:hover {
         text-decoration: underline;
     }
+
+
+
+    /*PREGUNTAS Y RESPUESTAS*/
+    .panel-texto45 h2 {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translateX(-38%) translateY(-320%); 
+        font-size: 3rem; 
+        color: black; 
+        width: 50rem;
+        font-weight: normal;
+    }
+
+    .panel-texto46 {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translateX(-72.2%) translateY(-10%); 
+        font-size: 1.4rem; 
+        color: black; 
+        text-align: left; 
+        width: 50rem;
+        line-height: 2.5;
+    }
+
+    .panel-texto47 {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translateX(-72.2%) translateY(100%); 
+        font-size: 1.4rem; 
+        color: black; 
+        text-align: left; 
+        width: 50rem;
+        line-height: 2.5;
+    }
+
+    .panel-texto48 {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translateX(-72.2%) translateY(170%); 
+        font-size: 1.4rem; 
+        color: black; 
+        text-align: left; 
+        width: 50rem;
+        line-height: 2.5;
+    }
+
+    .card16 {
+        position: absolute;
+        top: 50%; 
+        right: 0; 
+        transform: translateX(-50%) translateY(30%);
+        width: 300px;
+    }
+
+    .card16 img {
+        width: 150%; 
+        height: 450px; 
+    }
+
+    footer9 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        background-color: #88A795;
+        padding: 3.5px;
+        margin-top: 65rem;
+    }
+
+    footer9 p {
+        margin: 0;
+        font-size: 1.2rem;
+        text-align: center;
+        color: black;
+        flex: 1; 
+    }
+
+    .panel-logosredes9 {
+        display: flex;
+        justify-content: center;
+        flex: 1; 
+        margin-left: 3rem;
+    }
+
+    .panel-logosredes9 img {
+        width: 4rem;
+        margin: 37px;
+    }
+
+    footer9 nav {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end; 
+    }
+
+    footer9 nav ul {
+        display: flex;
+        flex-direction: column; 
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        align-items: flex-end; 
+        margin-right: 8rem;
+    }
+
+    footer9 nav ul li {
+        margin: 0.5rem 0; 
+    }
+
+    footer9 nav ul li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    footer9 nav ul li a:hover {
+        text-decoration: underline;
+    }
+
 }
