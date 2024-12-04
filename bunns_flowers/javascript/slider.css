@@ -1,6 +1,7 @@
+/*Slider 1 - Eventos*/
 .slider {
     position:relative;
-    width:100vw;
+    width:98.8.5vw;
     height:80vh;
     overflow: hidden;
     margin-top: 13rem;
@@ -80,4 +81,68 @@
     background-color: #fff;
     border: 1px solid #000;
     border-radius: 50%;
+}
+
+
+
+/*Slider 2 - Productos*/
+.slider2 {
+    position: relative;
+    width: 98.8.5vw;
+    height: 80vh;
+    overflow: hidden;
+    margin-top: 9rem;
+}
+
+.slider2 .framestrack2 {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 80vh;
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slider2 .framestrack2 .slide {
+    position: relative;
+    flex: 0 0 100%;
+    width: 100vw;
+    height: 80vh;
+}
+
+.slider2 .framestrack2 .slide img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 80vh;
+    object-fit: cover;
+    object-position: center center;
+}
+
+/* Flechas de navegación */
+.slider2 .btnLeft2, .slider2 .btnRight2 {
+    position: absolute;
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    z-index: 1010;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 2px 2px 3px #000;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.slider2 .btnLeft2 {
+    left: 0px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+.slider2 .btnRight2 {
+    right: 0px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
 }

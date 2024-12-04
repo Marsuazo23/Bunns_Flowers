@@ -3637,10 +3637,9 @@ body {
         position: absolute; 
         top: 50%; 
         left: 50%; 
-        transform: translateX(-25%) translateY(-320%); 
+        transform: translateX(-45%) translateY(-320%); 
         font-size: 3rem; 
         color: black; 
-        width: 50rem;
         font-weight: normal;
     }
 
@@ -3648,11 +3647,22 @@ body {
         position: absolute; 
         top: 50%; 
         left: 50%; 
-        transform: translateX(-10%) translateY(-200%); 
+        transform: translateX(-45%) translateY(-200%); 
         font-size: 2.5rem; 
         color: black; 
-        width: 50rem;
         font-weight: normal;
+        text-decoration: underline;
+    }
+
+    .panel-texto51 h3 {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translateX(-45%) translateY(1200%); 
+        font-size: 2.5rem; 
+        color: black; 
+        font-weight: normal;
+        text-decoration: underline;
     }
 
     footer10 {
@@ -3661,7 +3671,7 @@ body {
         justify-content: space-between; 
         background-color: #88A795;
         padding: 3.5px;
-        margin-top: 5rem;
+        margin-top: 10rem;
     }
 
     footer10 p {
