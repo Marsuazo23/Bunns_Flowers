@@ -1423,8 +1423,10 @@ body {
 }
 
 
+
 /*COMPUTADORAS*/
 @media (min-width:1024px){
+    
     /*INICIO*/
     header {
         display: flex;
@@ -1708,6 +1710,8 @@ body {
         text-decoration: underline;
     }
 
+
+
     /*CATALOGO*/
     .panel-texto3 {
         position: absolute; 
@@ -1800,7 +1804,9 @@ body {
         overflow: hidden;
         background-color: #ceb5d9;
         border-radius: 13px;
-        transform: translateX(50%) translateY(25%); 
+        transform: translateX(50%) translateY(25%);
+        margin-bottom: 2.6rem;
+ 
     }
 
     .card2 img {
@@ -1816,17 +1822,6 @@ body {
     }
 
     .card2 p {
-        font-size: 1rem;
-    }
-
-    .card2 a {
-        display: block;
-        font-size: 0.8rem;
-        text-decoration: none;
-        text-align: center;
-        background-color: #b58dc6;
-        padding: 10px;
-        font-weight: bold;
         font-size: 1rem;
     }
 
@@ -1872,7 +1867,8 @@ body {
         overflow: hidden;
         background-color: #ceb5d9;
         border-radius: 13px;
-        transform: translateX(50%) translateY(90%); 
+        transform: translateX(50%) translateY(100.5%); 
+        margin-bottom: 2.5rem;
     }
 
     .card3 img {
@@ -1944,7 +1940,8 @@ body {
         overflow: hidden;
         background-color: #ceb5d9;
         border-radius: 13px;
-        transform: translateX(50%) translateY(160%); 
+        transform: translateX(50%) translateY(176.5%); 
+        margin-bottom: 2.6rem;
     }
 
     .card4 img {
@@ -2196,6 +2193,8 @@ body {
     footer2 nav ul li a:hover {
         text-decoration: underline;
     }
+
+
 
     /*CURSOS*/
     .panel-texto7 {
@@ -2647,6 +2646,8 @@ body {
         text-decoration: underline;
     }
 
+
+
     /*NOSOTROS*/
     .panel-texto23 h2 {
         position: absolute; 
@@ -2827,6 +2828,8 @@ body {
     footer4 nav ul li a:hover {
         text-decoration: underline;
     }
+
+
 
     /*CONTACTOS*/
     .panel-texto25 h2 {
@@ -3030,6 +3033,8 @@ body {
         text-decoration: underline;
     }
 
+
+
     /*OFERTAS Y PROMOCIONES*/
     .panel-texto33{
         position: absolute; 
@@ -3172,6 +3177,8 @@ body {
         text-decoration: underline;
     }
 
+
+    
     /*MISION, VISION Y VALORES*/
     .panel-mvv {
         display: flex;
@@ -3257,6 +3264,7 @@ body {
     }
 
 
+
     /*EVENTOS*/
     .panel-texto36 {
         position: absolute; 
@@ -3328,6 +3336,5 @@ body {
         background-color: #ceb5d9;
         border-radius: 20px;
         border: 1px solid black;
-
     }
 }
