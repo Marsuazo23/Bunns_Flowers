@@ -2235,40 +2235,39 @@ body {
     }
 
     .card5 {
-        border: 1px solid black;
         position: relative;
         width: 310px;
         overflow: hidden;
-        background-color: #ceb5d9;
-        border-radius: 13px;
-        transform: translateX(45%) translateY(90%); 
+        background-color: white;
+        border: 7.5px solid white;
+        transform: translateX(45%) translateY(83%);
+        border-radius: 0;
+        display: flex; 
+        flex-direction: column; 
+        align-items: center; 
     }
-
+    
     .card5 img {
-        width: 100%;
-        height: 300px;
-        object-position: center center;
-        background-color: #ceb5d9;
+        width: 18rem; 
     }
-
-    .card5 h3, .card5 p {
-        margin: 0px;
-        padding: 0.5rem;
-    }
-
-    .card5 p {
-        font-size: 1rem;
-    }
-
+    
     .card5 a {
         display: block;
         font-size: 0.8rem;
         text-decoration: none;
         text-align: center;
-        background-color: #b58dc6;
-        padding: 10px;
-        font-weight: bold;
+        padding: 11px;
+        font-weight: normal;
         font-size: 1rem;
+        background-color: white;
+        border: 0.5px solid black;
+        color:black;
+        margin-top: 0.5rem;
+        width: 18rem;
+    }
+
+    .card5 a:hover {
+        text-decoration: underline; 
     }
 
     .panel-texto9 h3 {
@@ -3330,11 +3329,58 @@ body {
     }
 
     .card14 img {
-        width: 100%; 
-        height: 300px; 
+        width: 300px; 
+        height: 220px; 
         object-position: center center;
         background-color: #ceb5d9;
         border-radius: 20px;
         border: 1px solid black;
+        margin-top: 4.3rem;
+    }
+
+    .panel-texto40 {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translateX(-50%) translateY(260%); 
+        font-size: 1.4rem; 
+        color: black; 
+        text-align: left; 
+        width: 50rem;
+        line-height: 2.5;
+    }
+
+    .card15 {
+        position: absolute;
+        top: 50%; 
+        right: 0; 
+        transform: translateX(-28%) translateY(220%);
+        width: 300px;
+        border-radius: 20px;
+    }
+
+    .card15 img {
+        width: 300px; 
+        height: 220px; 
+        object-position: center center;
+        background-color: #ceb5d9;
+        border-radius: 20px;
+        border: 1px solid black;
+        margin-top: 4.3rem;
+    }
+
+    .panel-texto41 {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translateX(-168.8%) translateY(1000%); 
+        font-size: 1.5rem; 
+        color: black; 
+        text-align: center; 
+        font-weight: normal;
+    }
+
+    .panel-texto41 h2{
+        font-weight: normal;
     }
 }
