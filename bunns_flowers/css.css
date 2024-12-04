@@ -3630,4 +3630,86 @@ body {
         text-decoration: underline;
     }
 
+
+
+    /*GALERIA DE FOTOS*/
+    .panel-texto49 h2 {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translateX(-25%) translateY(-320%); 
+        font-size: 3rem; 
+        color: black; 
+        width: 50rem;
+        font-weight: normal;
+    }
+
+    .panel-texto50 h3 {
+        position: absolute; 
+        top: 50%; 
+        left: 50%; 
+        transform: translateX(-10%) translateY(-200%); 
+        font-size: 2.5rem; 
+        color: black; 
+        width: 50rem;
+        font-weight: normal;
+    }
+
+    footer10 {
+        display: flex;
+        align-items: center;
+        justify-content: space-between; 
+        background-color: #88A795;
+        padding: 3.5px;
+        margin-top: 5rem;
+    }
+
+    footer10 p {
+        margin: 0;
+        font-size: 1.2rem;
+        text-align: center;
+        color: black;
+        flex: 1; 
+    }
+
+    .panel-logosredes10 {
+        display: flex;
+        justify-content: center;
+        flex: 1; 
+        margin-left: 3rem;
+    }
+
+    .panel-logosredes10 img {
+        width: 4rem;
+        margin: 37px;
+    }
+
+    footer10 nav {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end; 
+    }
+
+    footer10 nav ul {
+        display: flex;
+        flex-direction: column; 
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        align-items: flex-end; 
+        margin-right: 8rem;
+    }
+
+    footer10 nav ul li {
+        margin: 0.5rem 0; 
+    }
+
+    footer10 nav ul li a {
+        text-decoration: none;
+        color: black;
+    }
+
+    footer10 nav ul li a:hover {
+        text-decoration: underline;
+    }
 }

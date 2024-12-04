@@ -1,0 +1,83 @@
+.slider {
+    position:relative;
+    width:100vw;
+    height:80vh;
+    overflow: hidden;
+    margin-top: 13rem;
+}
+
+.slider .framestrack{
+    position:relative;
+    top:0px;
+    left:0px;
+    height:80vh;
+    display: flex;
+    flex-direction: row;
+    transition: transform 0.5s ease-in-out; 
+}
+
+.slider .framestrack .slide{
+    position:relative;
+    flex: 0 0 100%;  /* Cada slide ocupará todo el ancho */
+    width:100vw;
+    height:80vh;
+}
+
+.slider .framestrack .slide img{
+    position: absolute;
+    top:0px;
+    left:0px;
+    width:100vw;
+    height:80vh;
+    object-fit: cover;
+    object-position: center center;
+}
+
+/* Flechas de navegación */
+.slider .btnLeft, .slider .btnRight {
+    position: absolute;
+    display: flex;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 1rem;
+    z-index: 1010;
+    top: 50%;
+    transform: translateY(-50%);
+    box-shadow: 2px 2px 3px #000;
+    background-color: rgba(255,255,255,0.8);
+}
+
+.slider .btnLeft {
+    left: 0px;
+    border-top-right-radius: 13px;
+    border-bottom-right-radius: 13px;
+}
+
+.slider .btnRight {
+    right: 0px;
+    border-top-left-radius: 13px;
+    border-bottom-left-radius: 13px;
+}
+
+
+/* Controles de la navegación */
+.slider .navigator {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    padding: 0.5rem 1rem;
+    background-color: rgba(0,0,0,0.7);
+    display: flex;
+    gap: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    z-index: 1010;
+}
+.slider .navigator .btnNavigateTo {
+    width: 16px;
+    height: 16px;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 50%;
+}
