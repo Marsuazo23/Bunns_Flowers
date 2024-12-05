@@ -19,7 +19,7 @@
 
 .slider .framestrack .slide{
     position:relative;
-    flex: 0 0 100%;  /* Cada slide ocupará todo el ancho */
+    flex: 0 0 100%; /* Cada slide ocupará todo el ancho */
     width:100vw;
     height:80vh;
 }
@@ -146,3 +146,4 @@
     border-top-left-radius: 13px;
     border-bottom-left-radius: 13px;
 }
+
