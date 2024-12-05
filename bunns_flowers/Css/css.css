@@ -1674,9 +1674,8 @@ body {
     }
 
     .panel-logosredes img {
-        width: 8rem;
-        margin: 0 0.5rem;
-        transform: translateY(-5px);
+        width: 4rem;
+        margin: 2rem;
         filter: none; 
         opacity: 1;
     }
