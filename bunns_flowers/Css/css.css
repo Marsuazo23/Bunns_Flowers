@@ -1505,6 +1505,15 @@ body {
         margin: 0;
     }
 
+    .panel-texto29 a {
+        color: black; 
+        text-decoration: none; 
+    }
+    
+    .panel-texto29 a:hover {
+        text-decoration: underline; 
+    }
+
     .panel-texto28 a {
         color: black; 
         text-decoration: none;
@@ -3721,7 +3730,7 @@ body {
         font-size: 3rem; 
         color: black; 
         text-align: center; 
-        width: 50rem;
+        width: 40rem;
         font-weight: normal;
     }
     
@@ -3777,6 +3786,15 @@ body {
         color: black; 
         line-height: 2;
         font-weight: normal;
+    }
+
+    .panel-texto29 a {
+        color: black; 
+        text-decoration: none; 
+    }
+    
+    .panel-texto29 a:hover {
+        text-decoration: underline; 
     }
     
     .panel-texto30 {
@@ -5525,6 +5543,15 @@ body {
         line-height: 2;
         font-weight: normal;
         margin-left: 11.5rem;
+    }
+
+    .panel-texto29 a {
+        color: black; 
+        text-decoration: none; 
+    }
+    
+    .panel-texto29 a:hover {
+        text-decoration: underline; 
     }
     
     .panel-texto44 {
