@@ -1,4 +1,5 @@
 function loadHeader() {
+    /*Definimos el contenido HTML del encabezado en una variable (headerHTML)*/
     const headerHTML = `
         <header>
             <nav>
@@ -43,5 +44,6 @@ function loadHeader() {
             </nav>
         </header>
     `;
+    /*Insertamos el contenido HTML generado en el contenedor con id 'header-container'*/
     document.getElementById('header-container').innerHTML = headerHTML;
 }
