@@ -1332,8 +1332,8 @@ body {
         margin: 0.5rem;
     }
 
-    /*EVENTOS*/
 
+    /*EVENTOS*/
     .panel-eventos {
         display: flex;
         flex-direction: column;
@@ -1475,7 +1475,6 @@ body {
         width: 2rem;
         margin: 0.5rem;
     }
-
 
 
     /*CONTACTOS*/
@@ -1666,8 +1665,8 @@ body {
         margin: 0.5rem;
     }
 
-    /*PREGUNTAS Y RESPUESTAS*/
 
+    /*PREGUNTAS Y RESPUESTAS*/
     .panel-texto45 h2 {
         position: relative; 
         font-size: 2.5rem; 
@@ -1683,7 +1682,7 @@ body {
         font-size: 1.2rem;
         color: black;
         text-align: left;
-        width: calc(100% - 2rem); /* Se resta el padding a los lados */ 
+        width: calc(100% - 2rem);  
         margin: 0 auto 1rem; 
         line-height: 1.6;
         padding: 0 1.5rem; 
@@ -2051,7 +2050,6 @@ body {
     footer nav ul li a:hover {
         text-decoration: underline;
     }
-
 
 
     /*CATALOGO*/
@@ -2543,7 +2541,6 @@ body {
     }
 
 
-
     /*OFERTAS Y PROMOCIONES*/
     .panel-texto33{
         position: absolute; 
@@ -3018,8 +3015,8 @@ body {
         transform: translateX(-8%) translateY(960%);
         border: 1px solid black;
         width: 300px;
-        height: 300px; /* Asegura que el contenedor tenga altura definida */
-        overflow: hidden; /* Elimina el desbordamiento de la imagen */
+        height: 300px; 
+        overflow: hidden; 
     }
     
     .card9 img {
@@ -3138,7 +3135,6 @@ body {
     }
 
 
-
     /*GALERÍA DE FOTOS*/
     .panel-texto49 h2 {
         position: absolute; 
@@ -3245,7 +3241,6 @@ body {
     footer10 nav ul li a:hover {
         text-decoration: underline;
     }
-
 
 
     /*SOBRE NOSOTROS*/
@@ -3427,7 +3422,6 @@ body {
     footer4 nav ul li a:hover {
         text-decoration: underline;
     }
-
 
 
     /*MISION, VISION Y VALORES*/
@@ -3718,7 +3712,6 @@ body {
     }
 
 
-
     /*CONTACTOS*/
     .panel-texto25 h2 {
         position: absolute; 
@@ -3966,7 +3959,6 @@ body {
     footer5 nav ul li a:hover {
         text-decoration: underline;
     }
-
 
 
     /*PREGUNTAS Y RESPUESTAS*/
@@ -4375,7 +4367,6 @@ body {
     footer nav ul li a:hover {
         text-decoration: underline;
     }
-
 
 
     /*CATALOGO*/
@@ -4861,7 +4852,6 @@ body {
     }
 
 
-
     /*CURSOS*/
     .panel-texto7 {
         position: absolute; 
@@ -4907,10 +4897,6 @@ body {
         flex-direction: column; 
         align-items: center; 
         overflow: visible;
-    }
-    
-    .card5 img {
-        width: 18rem; 
     }
     
     .card5 a {
@@ -5288,7 +5274,6 @@ body {
     }
 
 
-
     /*NOSOTROS*/
     .panel-texto23 h2 {
         position: absolute; 
@@ -5470,7 +5455,6 @@ body {
     footer4 nav ul li a:hover {
         text-decoration: underline;
     }
-
 
 
     /*CONTACTOS*/
@@ -5728,7 +5712,6 @@ body {
     }
 
 
-
     /*OFERTAS Y PROMOCIONES*/
     .panel-texto33{
         position: absolute; 
@@ -5871,7 +5854,6 @@ body {
         text-decoration: underline;
     }
 
-
     
     /*MISION, VISION Y VALORES*/
     .panel-mvv {
@@ -5956,7 +5938,6 @@ body {
     footer7 nav ul li a:hover {
         text-decoration: underline;
     }
-
 
 
     /*EVENTOS*/
@@ -6162,7 +6143,6 @@ body {
     }
 
 
-
     /*PREGUNTAS Y RESPUESTAS*/
     .panel-texto45 h2 {
         position: absolute; 
@@ -6281,7 +6261,6 @@ body {
     footer9 nav ul li a:hover {
         text-decoration: underline;
     }
-
 
 
     /*GALERIA DE FOTOS*/
