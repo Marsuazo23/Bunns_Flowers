@@ -99,8 +99,8 @@ body {
         color: #333;
     }
 
-    /*INICIO*/
 
+    /*INICIO*/
     .panel-inicio picture {
         display: flex;
         justify-content: center;
@@ -119,6 +119,7 @@ body {
         height: auto;
         padding: 1rem;
         background-color: rgba(136, 167, 149, 0.5);
+        transform: translateX(5%) translateY(0%);
         border-radius: 20px;
         display: flex;
         justify-content: center;
@@ -162,12 +163,14 @@ body {
         font-size: 1.2rem;
         padding: 0.5rem;
         text-align: center;
+        transform: translateX(-0%) translateY(-755%); 
     }
 
     .panel-texto2 {
         font-size: 1rem;
         padding: 0.5rem;
         text-align: center;
+        transform: translateX(-0%) translateY(-800%); 
     }
 
     .panel-floreseternas {
@@ -178,6 +181,7 @@ body {
     .panel-floreseternas h2 {
         font-size: 1.5rem;
         margin-bottom: 1rem;
+        margin-top: 0rem;
     }
 
     .panel-floreseternas p {
@@ -290,8 +294,8 @@ body {
         margin: 0.5rem;
     }
 
-    /*CATALOGO*/
 
+    /*CATALOGO*/
     .panel-inicio picture {
         display: flex;
         justify-content: center;
@@ -628,8 +632,8 @@ body {
         margin: 0.5rem;
     }
 
-    /*OFERTAS Y PROMOCIONES*/
 
+    /*OFERTAS Y PROMOCIONES*/
     .panel-texto33 {
         text-align: center;
         font-size: 2rem;
@@ -686,6 +690,12 @@ body {
     .card11 h3,
     .card12 h3 {
         font-weight: bold;
+        font-size: 1.7rem;
+    }
+
+    .card11 h4,
+    .card12 h4 {
+        font-weight: normal;
         font-size: 1.7rem;
     }
     
@@ -759,8 +769,8 @@ body {
         margin: 0.5rem;
     }
 
-    /*CURSOS*/
 
+    /*CURSOS*/
     .panel-texto7 {
         position: relative;
         top: auto;
@@ -802,7 +812,7 @@ body {
         margin: 0 auto;
         overflow: hidden;
         background-color: white;
-        border-radius: 10px;
+        border: 4px solid white;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -851,6 +861,15 @@ body {
         margin: 0 auto 1rem; 
         text-align: center; 
     }
+
+    .panel-texto12 h2{
+        text-decoration: underline;
+        margin-left: 1rem;
+    }
+
+    .panel-texto13, .panel-texto15, .panel-texto18, .panel-texto21{
+        margin-left: 1rem;
+    }
     
     .card6, .card7, .card8, .card9 {
         width: 90%;
@@ -866,8 +885,15 @@ body {
         background-color: #ceb5d9;
     }
     
+    .panel-texto14 h2, .panel-texto17 h2, .panel-texto20 h2{
+        text-decoration: underline;
+        margin-left: 1rem;
+    }
+
     .panel-texto16 h2, .panel-texto19 h2, .panel-texto22 h2 {
         font-size: 2rem;
+        color: #d0a933;
+        margin-left: 8rem;
     }
     
     .panel-texto17 h2, .panel-texto20 h2 {
@@ -982,8 +1008,8 @@ body {
         margin: 0.5rem;
     }
 
-    /*GALERIA DE FOTOS*/
 
+    /*GALERIA DE FOTOS*/
     footer10 {
         display: flex;
         flex-direction: column;
@@ -1044,8 +1070,9 @@ body {
         margin: 0.5rem;
     }
 
-    /*SOBRE NOSOTROS*/
 
+
+    /*SOBRE NOSOTROS*/
     .panel-texto23 h2 {
         position: relative; 
         font-size: 2.5rem; 
@@ -1199,8 +1226,8 @@ body {
         margin: 0.5rem;
     }
 
-    /*MISIÓN, VISIÓN Y VALORES*/
 
+    /*MISIÓN, VISIÓN Y VALORES*/
     .panel-mvv {
         display: flex;
         flex-direction: column; 
@@ -1234,6 +1261,7 @@ body {
         font-size: 1rem;
         line-height: 1.5;
         margin-bottom: 10px; 
+        font-weight: normal;
     }
     
     .card13 ul {
@@ -1241,6 +1269,7 @@ body {
         padding-left: 20px;
         margin: 0;
     }
+
 
     footer7 {
         display: flex;
@@ -1447,8 +1476,9 @@ body {
         margin: 0.5rem;
     }
 
-    /*CONTACTOS*/
 
+
+    /*CONTACTOS*/
     .panel-contacto {
         display: flex;
         flex-direction: column;
@@ -2657,7 +2687,6 @@ body {
     }
     
 
-
     /*CURSOS*/
     .panel-texto7 {
         position: absolute; 
@@ -2667,7 +2696,7 @@ body {
         font-size: 2rem; 
         color: black; 
         text-align: center; 
-        width: 50rem;
+        width: 49rem;
     }
     
     .panel-texto7 h2{
@@ -2686,19 +2715,14 @@ body {
         line-height: 2.5;
     }
     
-    .panel-tipoC {
-        display: flex; 
-        gap: 4rem; 
-    }
-    
+    .panel-tipoC,
     .panel-tiposdeC {
-        display: flex; 
-        gap: 4rem; 
+        display: flex;
+        gap: 4rem;
     }
     
     .card5 {
         border: 1px solid black;
-        position: relative;
         width: 210px;
         overflow: hidden;
         background-color: white;
@@ -4866,13 +4890,13 @@ body {
         line-height: 2.5;
     }
 
+    .panel-tipoC,
     .panel-tiposdeC {
-        display: flex; 
-        gap: 5rem; 
+        display: flex;
+        gap: 5rem;
     }
 
     .card5 {
-        position: relative;
         width: 310px;
         overflow: hidden;
         background-color: white;
@@ -4882,6 +4906,7 @@ body {
         display: flex; 
         flex-direction: column; 
         align-items: center; 
+        overflow: visible;
     }
     
     .card5 img {
@@ -4889,7 +4914,7 @@ body {
     }
     
     .card5 a {
-        display: block;
+        display: inline-block;
         font-size: 0.8rem;
         text-decoration: none;
         text-align: center;
